@@ -99,6 +99,8 @@
 		{ "trigger": "sub", "contents": "sub(${1:str},${2:from},${3:to})$0" },
 		{ "trigger": "time", "contents": "time()$0" },
 		{ "trigger": "type", "contents": "type(${1:v})$0" },
+		{ "trigger": "tostr", "contents": "tostr(${1:x})$0"},
+		{ "trigger": "tonum", "contents": "tonum(${1:x})$0"},
 		{ "trigger": "yield", "contents": "yield()$0" }
 	]
 }
